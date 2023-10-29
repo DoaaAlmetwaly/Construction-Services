@@ -1,5 +1,5 @@
 body{
- 
+
     font-family: 'Roboto', sans-serif;
 }
 
@@ -7,11 +7,12 @@ body{
     background-color: #ffc107;
 }
 h1{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 50px;
+
 }
 .carousel-caption{
-    
+
     transform: translateY(-50%);
 }
 .carousel-caption p{
@@ -26,7 +27,7 @@ h1{
   .icons img{
     width: 35%;
     border: 10px solid #efd83d;
-    box-shadow: 0px 3px 23px 15px #ffc107; 
+    box-shadow: 0px 3px 23px 15px #ffc107;
   }
   .icons:hover{
 opacity: 1;
@@ -42,19 +43,14 @@ transform:scale(1.03);
     display: none;
   }
 
-  @media (min-width: 992px) {
-    .navbar-expand-lg {
-      display: block;
-    }
-  }
 
     @media screen and (min-width: 768px){
     hr{
         display: none;
-    }
-  } 
+    } 
+  }
   @media screen and (max-width: 600px){
     hr{
         display: block;
     }
-  }  
+  }
